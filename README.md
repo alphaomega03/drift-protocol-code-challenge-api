@@ -19,3 +19,15 @@ yarn start
 
 Note that the server is api key authenticated.  You can use the api key specified in this 1Password vault [1Password Environment Variables](https://share.1password.com/s#FuXbw-BdO1eCdPMQKs5mSui5KCh-ZITtFkWtbqxwj0w).  You can then pass this api key as a header with key `apiKey`
 
+## How to Deploy
+
+```bash 
+cd terraform
+gcloud auth login
+terraform init
+terraform plan
+terraform apply
+sh deploy-image-prod.sh
+```
+
+You'll need to be authenticated through gcloud to do this.  Let me know if you'd like to try this and I can add your email to the GCP project
