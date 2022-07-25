@@ -4,7 +4,7 @@ This is a simple Express CRUD API Server used by our React application to store 
 
 ## How to Run
 First, you will need to download the necessary GCP credentials from 1Password:
-[1Password Credentials](https://share.1password.com/s#LkidMltdU5K10WHHKrU6Htg93HpGhlO6KJpHwGa-ZDQ)
+[1Password Credentials](https://share.1password.com/s#cZ3LXBxBgbOKNa0KX-s8TLsy5UYcyC0aHyP3los-_bU)
 You will need to save this file inside the following directories: 
 - `src`
 - `terraform`
@@ -17,7 +17,7 @@ yarn install
 yarn start
 ```
 
-Note that the server is api key authenticated.  You can use the api key specified in this 1Password vault [1Password Environment Variables](https://share.1password.com/s#FuXbw-BdO1eCdPMQKs5mSui5KCh-ZITtFkWtbqxwj0w).  You can then pass this api key as a header with key `apiKey`
+Note that the server is api key authenticated.  You can use the api key specified in this 1Password vault [1Password Environment Variables](https://share.1password.com/s#wgEmDHhJU_iG_adF9DcXHHr0bZREniJ2B7WTJs-bXzE).  You can then pass this api key as a header with key `apiKey`
 
 ## How to Deploy
 
